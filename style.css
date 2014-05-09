@@ -1,0 +1,275 @@
+body, header, article, footer{
+	font-family: sans-serif;
+    float: left;
+}
+
+body{
+	background-color: #f3f3f3;
+    width: 620px;
+}
+
+#canvas{
+	float: left;
+	margin: 5px;
+	margin-top: 10px;
+	border: 2px solid silver;
+	clear: both;	
+}
+
+#filters{
+    float: right;
+    margin: 5px;
+    margin-top: 15px;
+    border: 2px solid silver;
+    padding: 5px;
+}
+
+#filtersTitle{
+    text-align: center;
+}
+
+#filtersHeader{
+	margin: 5px;
+    border: 2px solid silver;
+    padding: 5px;
+    float: top;
+    clear: both;
+    
+}
+
+header{
+	border: 2px solid silver;
+	width: 580px;
+	padding: 10px;
+	text-align: center;
+}
+
+img {
+    max-width: inherit;
+	max-height: inherit;
+	margin:auto;
+}
+
+article{
+	border: 2px solid silver;
+	margin: 10px;
+    float:left;
+    width: 150px;
+    height: 150px;
+    box-shadow: 10px 10px 7px #858585;
+    padding: 10px;
+    padding-bottom: 15;
+}
+
+article:hover{
+	border: 2px solid #505050;
+	background-color: #C0C0C0;
+    transition: border 1s, background-color 1s;
+}
+
+figure, figcaption{
+	font-family: sans-serif;
+    font-size: 15px;
+	width: 130px;
+    margin: 5px;
+    padding: 10px;
+    max-width: 100%;
+	max-height: 100%;
+	clear: inherit;
+}
+
+article figcaption{
+	align-text: center;
+	align-content: center;
+}
+
+figure{
+	margin-top: 5px;
+	height: 90px;
+	float: top;
+}
+
+figcaption{
+	height: 10px;
+	align-content: left;
+}
+
+figcaption input {
+	margin-bottom: 5px;
+	margin-right: 5px;
+	float: left;
+}
+
+section{
+    margin: 10px;
+    float: left;
+}
+
+h4 {
+	text-align: left;
+	float: left;
+}
+
+header h4 {
+	text-align: left;
+	float: left;
+}
+
+#regex{
+    float: left;
+}
+
+header #title{
+	margin-left: 0px;
+	margin-top: 0;
+	margin-bottom: 10px;
+	float: left top;
+}
+
+h4 #options{
+	margin-left: 0px;
+	margin-bottom: 0px;
+	float: left;
+}
+
+header #filterText{
+	float: left;
+}
+
+.download{
+	margin-left: 10px;
+	margin-bottom: 10px;
+	float: left;
+	clear: both;
+}
+/*
+.download:hover{
+    border: 1px solid #505050;
+    border-radius: 5px;
+    font-weight: bold;
+	background-color: #C0C0C0;
+}
+*/
+/*
+#download1:hover{
+    border: 1px solid #505050;
+    border-radius: 5px;
+    font-weight: bold;
+	background-color: #C0C0C0;
+}
+*/
+.back:hover{
+    border: 1px solid #505050;
+    border-radius: 5px;
+    font-weight: bold;
+	background-color: #C0C0C0;
+
+}
+
+.reset:hover{
+    border: 1px solid #505050;
+    border-radius: 5px;
+    font-weight: bold;
+	background-color: #C0C0C0;
+
+}
+
+.filterPageButtons #downloadEdited{
+	margin: 5px;
+	float: left;
+	clear: inherit;
+}
+
+.filterPageButtons #back{
+	margin: 5px;
+	float: left;
+	clear: inherit;
+}
+
+.filterPageButtons #reset{
+	margin: 5px;
+	float: left;
+	clear: inherit;
+}
+
+#filtersButton{
+    margin-left: 20px; 
+    float: left;
+}
+/*
+#filtersButton:hover{
+    border: 1px solid #505050;
+    border-radius: 5px;
+    font-weight: bold;
+	background-color: #C0C0C0;
+}
+*/
+#imgur{
+    margin-left: 20px; 
+    float: left;
+}
+/*
+#imgur:hover{
+    border: 1px solid #505050;
+    border-radius: 5px;
+    font-weight: bold;
+	background-color: #C0C0C0;
+}
+*/
+#filterPageButtons{
+	margin: 5px;
+	padding: 10px;
+	float: left;
+}
+
+.checkboxes{
+	margin: auto;
+	width: 75%;
+	/*
+	float: left;
+	margin-left: 0px;
+	clear: both;
+	*/
+}
+
+.buttons {
+	margin: auto;
+	width: 45%;
+}
+
+#controls{
+	padding: 5px;
+	float: right;
+	margin: 5px;
+	margin-top: 10px;
+	border: 2px solid silver;
+}
+
+#toggle_all{
+	float: left;
+}
+
+h4 #jpg{
+	margin-left: 20px;
+}
+
+h4 #face{
+	margin-left: 20px;
+}
+
+h4 #png{
+	margin-left: 20px;
+}
+
+h4 #gif{
+	margin-left: 20px;
+}
+
+h4 #grey {
+	margin-left: 20px;
+}
+
+#footer {
+	margin: auto;
+	width: 20%;
+}

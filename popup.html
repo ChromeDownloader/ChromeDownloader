@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+    <!-- POPUP -->
+    <script src='popup.js'></script>
+	<script src='jquery-2.1.0.js'></script>
+	<script src='pixastic.js'></script>
+	<script src='sonic.js'></script>
+	<!-- Dead weight
+	<script src='facedetection/cvv.js'></script>
+	<script src='facedetection/face.js'></script>
+	<script src='jquery.facedetection.js'></script>
+	-->
+    
+    <!-- SYTLE.CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+    <div>
+		<h3 id=title>Chrome Downloader</h3>
+    </div>
+
+	<!-- CHECKBOXES -->
+	<div class="checkboxes">
+        <h4><input type=checkbox id=toggle_all>Select All</h4>
+		<h4><input type=checkbox id=jpg>*.jpg</h4>
+		<h4><input type=checkbox id=png>*.png</h4>
+		<h4><input type=checkbox id=gif>*.gif</h4>
+		<h4><input type=checkbox id=grey>Greyscale</h4><br>
+		<!--<h4><input type=checkbox id=face>Face Detection</h4>-->
+
+	</div>
+	
+	<!-- DOWNLOAD -->
+	<div class="buttons">
+        <button class="download" id=download0>Download</button>
+	  
+        
+    <!-- IMAGE FILTERS -->
+        <a href="image_filter.html"> <button id=filtersButton>Filters</button></a>
+	
+	<!-- IMGUR IMPLEMENTATION -->
+	<!--<div id="imgurSection">-->
+			<button id="imgur" onclick="document.querySelector('input').click()">Upload</button>
+			<!--<input style="visibility: collapse; width: 0px;" type="file" onchange="upload(this.files[0])">-->
+	</div>
+        
+    </header>
+    
+    <!-- Section where images will be displayed -->
+    <section id=links></section>
+    
+	<!-- LOADER ANIMATION -->
+    <div id=footer>
+    </div>
+</body>
+</html>
